@@ -1,0 +1,77 @@
+Calculate Big O
+Run Time analysis for all tasks  (Worst Case Big-O Notation)
+
+
+Task0.py
+.........
+    Worst case complexity: O(1)
+    Algorithm: 
+        print resulting string to console(complexity: O(1))
+        print resulting string to console(complexity: O(1))
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Task1.py 
+.........
+Worst case complexity: O(n)
+    Algorithm: 
+        initialize an empty set(complexity: O(1))
+        looping through calls and texts and update set(complexity: O(n))
+        print resulting string to console(complexity: O(1))
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Task2.py
+.........
+Worst case complexity: O(n)
+    Algorithm: 
+        initialize an empty set(complexity: O(1))
+        looping through calls and texts and update set(complexity: O(n))
+        initialize dictionary(complexity: o(1))
+        looped through set and update dictionary(complexity: O(n))
+        looping through calls and updating dictionary (complexity: O(n))
+        finding maximun value in a dictionary (complexity: O(n))
+        print resulting string to console(complexity: O(1))
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Task3.py
+.........
+Worst case complexity: O(nlogn)
+    Algorithm: 
+        initialize varaible(complexity: O(1))
+        initialize list (complexity: O(1))
+        looping through list and nested if statements(complexity: O(nlogn)
+        call method (complexity: O(1))
+        update variable (complexity: O(1))
+        initialize variable with value of list count(complexity: O(n))
+        print resulting string to console(complexity: O(1))
+        looping through sorted list(complexity: O(n))
+        print resulting string to console(complexity: O(1))
+        print resulting string to console(complexity: O(1))
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Task4.py
+.........
+Worst case complexity: O(nlogn)
+    Algorithm: 
+        initialize set with mapping(complexity: O(n))
+        initialize set with mapping(complexity: O(n))
+        initialize set using value of the difference of two sets (complexity: O(n))
+        initialize empty set(complexity: O(1))
+        looping through list and updating set values(complexity: O(n)) 
+        initialize set using value of the difference of two sets (complexity: O(n))
+        print resulting string to console(complexity: O(1))
+        looping through sorted list (complexity: (O(nlogn))
+        printing resulting string to console(complexity: O(1))
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
